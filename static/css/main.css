@@ -1,0 +1,9 @@
+body,
+html {
+    min-height: 100vh;
+}
+
+main.container {
+    border-radius: 2rem;
+    padding: 1rem;
+}

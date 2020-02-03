@@ -1,0 +1,16 @@
+{
+  "name": "qcm",
+  "version": "1.0.0",
+  "description": "QCM PWA with vanilla JavaScript",
+  "main": "app.js",
+  "dependencies": {
+    "jest": "^25.1.0",
+    "vanilla-router": "^1.2.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Vincent Lepelley <vincent@lepelley.fr> (https://vincent.lepelley.fr)",
+  "license": "ISC"
+}
