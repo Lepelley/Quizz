@@ -5,6 +5,15 @@ const app = {
   dom: {
     render: (html) => {
       document.querySelector('main.container').innerHTML = html
+    },
+    renderElement: (selector, html) => {
+      document.querySelector(selector).innerHTML = html
+    },
+    getElement: (selector) => {
+      return document.querySelector(selector)
+    },
+    getElements: (selector) => {
+      return document.querySelectorAll(selector)
     }
   },
 

@@ -1,8 +1,7 @@
-import app from '../../app/app.js'
-import QuestionModel from '../models/Question.js'
+import AbstrastController from './AbstractController.js'
 
-export default class Home {
+export default class Home extends AbstrastController {
   async show () {
-    await app.mvc.loadView('home')
+    await super.show('home')
   }
 }

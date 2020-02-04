@@ -1,8 +1,8 @@
 import AbstractEntityStorage from './AbstractEntityStorage.js'
 
-export default class Question extends AbstractEntityStorage {
+export default class Category extends AbstractEntityStorage {
   constructor () {
     super()
-    this.key = 'questions'
+    this.key = 'categories'
   }
 }

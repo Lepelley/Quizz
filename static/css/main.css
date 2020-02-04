@@ -5,5 +5,18 @@ html {
 
 main.container {
     border-radius: 2rem;
-    padding: 1rem;
+}
+
+input:checked + label {
+    color: green !important;
+    text-decoration: underline green;
+}
+
+input[type=checkbox] {
+    width: 2rem;
+    height: 2rem;
+}
+
+input[type=checkbox] + label {
+    margin-left: 1rem;
 }
