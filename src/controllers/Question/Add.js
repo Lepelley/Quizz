@@ -25,7 +25,7 @@ export default class Add extends AbstrastController {
     })
   }
 
-  addOption(id, text) {
+  addOption (id, text) {
     const option = document.createElement('option')
     option.setAttribute('value', id)
     option.textContent = text

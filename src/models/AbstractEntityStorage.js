@@ -7,7 +7,11 @@ export default class AbstractEntityStorage {
   }
 
   findAll () {
-    return JSON.parse(window.localStorage.getItem(this.key))
+    const results = JSON.parse(window.localStorage.getItem(this.key))
+    if (results === null) {
+      return []
+    }
+    return results
   }
 
   get (idToFind) {

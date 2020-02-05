@@ -1,0 +1,21 @@
+<h2 id="controller-title">Ajouter un quiz</h2>
+
+<form action="post" id="quiz-form">
+    <div class="form-group">
+        <label for="field-name">Nom</label>
+        <input type="text" class="form-control" id="field-name" name="name" required
+            placeholder="Ecrire le nom du quiz (Ex: Mon super quiz trop dur)">
+    </div>
+
+    <p>Questions</p>
+    <div id="quiz-questions">
+        <div class="form-group">
+            <select class="form-control" name="question1" id="question1">
+                <option value="-1"></option>
+            </select>
+        </div>
+    </div>
+    <button class="btn btn-secondary" id="add-question">Ajouter un question</button>
+
+    <button class="btn btn-primary" type="submit" id="form-submit">Ajouter un quiz</button>
+</form>

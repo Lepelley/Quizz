@@ -18,7 +18,7 @@ export default class Update extends AbstrastController {
 
       const newCategory = {
         id: parseInt(id),
-        category: event.target.category.value,
+        category: event.target.category.value
       }
 
       categoryModel.remove(id)

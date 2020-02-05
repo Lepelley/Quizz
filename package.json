@@ -4,17 +4,13 @@
   "description": "QCM PWA with vanilla JavaScript",
   "main": "app.js",
   "dependencies": {
-    "babel-jest": "^25.1.0",
     "tablefilter": "^0.6.107",
     "vanilla-router": "^1.2.7"
   },
   "devDependencies": {
-    "jest": "^25.1.0",
-    "standard": "^14.3.1",
-    "ts-jest": "^25.2.0"
+    "standard": "^14.3.1"
   },
   "scripts": {
-    "test": "jest"
   },
   "author": "Vincent Lepelley <vincent@lepelley.fr> (https://vincent.lepelley.fr)",
   "license": "ISC"
